@@ -13,9 +13,22 @@
 		BAEFE9EA2752659500E1CD57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEFE9E82752659500E1CD57 /* Main.storyboard */; };
 		BAEFE9EC2752659600E1CD57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAEFE9EB2752659600E1CD57 /* Assets.xcassets */; };
 		BAEFE9EF2752659600E1CD57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEFE9ED2752659600E1CD57 /* LaunchScreen.storyboard */; };
+		BAEFE9FD2752665000E1CD57 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEFE9FC2752665000E1CD57 /* Button.swift */; };
+		BAEFE9FF2752665800E1CD57 /* DialogStyleEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEFE9FE2752665800E1CD57 /* DialogStyleEnum.swift */; };
+		BAEFEA012752665F00E1CD57 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEFEA002752665F00E1CD57 /* Extensions.swift */; };
+		BAEFEA042752666A00E1CD57 /* JumpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEFEA022752666A00E1CD57 /* JumpButton.swift */; };
+		BAEFEA052752666A00E1CD57 /* PageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEFEA032752666A00E1CD57 /* PageButton.swift */; };
+		BAEFEA072752667200E1CD57 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEFEA062752667200E1CD57 /* PageModel.swift */; };
+		BAEFEA0A2752667F00E1CD57 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEFEA082752667F00E1CD57 /* PageViewController.swift */; };
+		BAEFEA0B2752667F00E1CD57 /* PagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEFEA092752667F00E1CD57 /* PagerViewController.swift */; };
+		BAEFEA0E2752673500E1CD57 /* AnimationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEFEA0C2752673500E1CD57 /* AnimationUtils.swift */; };
+		BAEFEA0F2752673500E1CD57 /* UIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEFEA0D2752673500E1CD57 /* UIUtils.swift */; };
+		DB3736F2222A3C81C8EEB589 /* Pods_viewpager_viewcode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7EEDB3972F86AFEAA2B341 /* Pods_viewpager_viewcode.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F7EEDB3972F86AFEAA2B341 /* Pods_viewpager_viewcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_viewpager_viewcode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BEC39F9214392E3C8369ECD /* Pods-viewpager-viewcode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viewpager-viewcode.release.xcconfig"; path = "Target Support Files/Pods-viewpager-viewcode/Pods-viewpager-viewcode.release.xcconfig"; sourceTree = "<group>"; };
 		BAEFE9DF2752659500E1CD57 /* viewpager-viewcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "viewpager-viewcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAEFE9E22752659500E1CD57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAEFE9E42752659500E1CD57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,17 @@
 		BAEFE9EB2752659600E1CD57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAEFE9EE2752659600E1CD57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAEFE9F02752659600E1CD57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAEFE9FC2752665000E1CD57 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		BAEFE9FE2752665800E1CD57 /* DialogStyleEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogStyleEnum.swift; sourceTree = "<group>"; };
+		BAEFEA002752665F00E1CD57 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BAEFEA022752666A00E1CD57 /* JumpButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumpButton.swift; sourceTree = "<group>"; };
+		BAEFEA032752666A00E1CD57 /* PageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageButton.swift; sourceTree = "<group>"; };
+		BAEFEA062752667200E1CD57 /* PageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		BAEFEA082752667F00E1CD57 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		BAEFEA092752667F00E1CD57 /* PagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerViewController.swift; sourceTree = "<group>"; };
+		BAEFEA0C2752673500E1CD57 /* AnimationUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationUtils.swift; sourceTree = "<group>"; };
+		BAEFEA0D2752673500E1CD57 /* UIUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUtils.swift; sourceTree = "<group>"; };
+		DBF621A77C069C9D96617F63 /* Pods-viewpager-viewcode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viewpager-viewcode.debug.xcconfig"; path = "Target Support Files/Pods-viewpager-viewcode/Pods-viewpager-viewcode.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB3736F2222A3C81C8EEB589 /* Pods_viewpager_viewcode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42C8CC807C4240CEF710FA22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBF621A77C069C9D96617F63 /* Pods-viewpager-viewcode.debug.xcconfig */,
+				7BEC39F9214392E3C8369ECD /* Pods-viewpager-viewcode.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		652975537BDF1E8CF48E51CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F7EEDB3972F86AFEAA2B341 /* Pods_viewpager_viewcode.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BAEFE9D62752659500E1CD57 = {
 			isa = PBXGroup;
 			children = (
 				BAEFE9E12752659500E1CD57 /* viewpager-viewcode */,
 				BAEFE9E02752659500E1CD57 /* Products */,
+				42C8CC807C4240CEF710FA22 /* Pods */,
+				652975537BDF1E8CF48E51CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +100,10 @@
 		BAEFE9E12752659500E1CD57 /* viewpager-viewcode */ = {
 			isa = PBXGroup;
 			children = (
+				BAEFE9F9275265E900E1CD57 /* components */,
+				BAEFE9F8275265D900E1CD57 /* util */,
+				BAEFE9F7275265D200E1CD57 /* enum */,
+				BAEFE9F6275265CE00E1CD57 /* model */,
 				BAEFE9E22752659500E1CD57 /* AppDelegate.swift */,
 				BAEFE9E42752659500E1CD57 /* SceneDelegate.swift */,
 				BAEFE9E62752659500E1CD57 /* ViewController.swift */,
@@ -67,6 +115,60 @@
 			path = "viewpager-viewcode";
 			sourceTree = "<group>";
 		};
+		BAEFE9F6275265CE00E1CD57 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BAEFEA062752667200E1CD57 /* PageModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BAEFE9F7275265D200E1CD57 /* enum */ = {
+			isa = PBXGroup;
+			children = (
+				BAEFE9FE2752665800E1CD57 /* DialogStyleEnum.swift */,
+			);
+			path = enum;
+			sourceTree = "<group>";
+		};
+		BAEFE9F8275265D900E1CD57 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				BAEFEA0C2752673500E1CD57 /* AnimationUtils.swift */,
+				BAEFEA0D2752673500E1CD57 /* UIUtils.swift */,
+				BAEFEA002752665F00E1CD57 /* Extensions.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		BAEFE9F9275265E900E1CD57 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				BAEFE9FB275265F500E1CD57 /* button */,
+				BAEFE9FA275265EF00E1CD57 /* dialog */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		BAEFE9FA275265EF00E1CD57 /* dialog */ = {
+			isa = PBXGroup;
+			children = (
+				BAEFEA092752667F00E1CD57 /* PagerViewController.swift */,
+				BAEFEA082752667F00E1CD57 /* PageViewController.swift */,
+			);
+			path = dialog;
+			sourceTree = "<group>";
+		};
+		BAEFE9FB275265F500E1CD57 /* button */ = {
+			isa = PBXGroup;
+			children = (
+				BAEFEA022752666A00E1CD57 /* JumpButton.swift */,
+				BAEFEA032752666A00E1CD57 /* PageButton.swift */,
+				BAEFE9FC2752665000E1CD57 /* Button.swift */,
+			);
+			path = button;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAEFE9F32752659600E1CD57 /* Build configuration list for PBXNativeTarget "viewpager-viewcode" */;
 			buildPhases = (
+				8C16E554CB2AB5523DB26C1C /* [CP] Check Pods Manifest.lock */,
 				BAEFE9DB2752659500E1CD57 /* Sources */,
 				BAEFE9DC2752659500E1CD57 /* Frameworks */,
 				BAEFE9DD2752659500E1CD57 /* Resources */,
+				077BEC225E065CBB1F319DB6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +237,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		077BEC225E065CBB1F319DB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-viewpager-viewcode/Pods-viewpager-viewcode-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-viewpager-viewcode/Pods-viewpager-viewcode-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-viewpager-viewcode/Pods-viewpager-viewcode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C16E554CB2AB5523DB26C1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-viewpager-viewcode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BAEFE9DB2752659500E1CD57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BAEFE9E72752659500E1CD57 /* ViewController.swift in Sources */,
+				BAEFEA0A2752667F00E1CD57 /* PageViewController.swift in Sources */,
+				BAEFEA012752665F00E1CD57 /* Extensions.swift in Sources */,
+				BAEFEA042752666A00E1CD57 /* JumpButton.swift in Sources */,
 				BAEFE9E32752659500E1CD57 /* AppDelegate.swift in Sources */,
+				BAEFEA072752667200E1CD57 /* PageModel.swift in Sources */,
+				BAEFEA052752666A00E1CD57 /* PageButton.swift in Sources */,
 				BAEFE9E52752659500E1CD57 /* SceneDelegate.swift in Sources */,
+				BAEFEA0E2752673500E1CD57 /* AnimationUtils.swift in Sources */,
+				BAEFE9FF2752665800E1CD57 /* DialogStyleEnum.swift in Sources */,
+				BAEFEA0B2752667F00E1CD57 /* PagerViewController.swift in Sources */,
+				BAEFE9FD2752665000E1CD57 /* Button.swift in Sources */,
+				BAEFEA0F2752673500E1CD57 /* UIUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,6 +440,7 @@
 		};
 		BAEFE9F42752659600E1CD57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBF621A77C069C9D96617F63 /* Pods-viewpager-viewcode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,6 +449,7 @@
 				DEVELOPMENT_TEAM = 4XLCLV84RA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "viewpager-viewcode/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ViewPager;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -302,7 +460,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wallace.viewpager-viewcode.viewpager-viewcode";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wallace.viewpager-viewcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,6 +470,7 @@
 		};
 		BAEFE9F52752659600E1CD57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BEC39F9214392E3C8369ECD /* Pods-viewpager-viewcode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,6 +479,7 @@
 				DEVELOPMENT_TEAM = 4XLCLV84RA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "viewpager-viewcode/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ViewPager;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,7 +490,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wallace.viewpager-viewcode.viewpager-viewcode";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wallace.viewpager-viewcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
