@@ -47,7 +47,6 @@ open class PagerViewController: UIViewController, UIPageViewControllerDelegate {
         }
         
         scrollView.delegate = self
-        scrollView.isUserInteractionEnabled = false
         view.backgroundColor = UIColor(white: 1, alpha: 0)
         return scrollView
     }()
@@ -155,8 +154,8 @@ open class PagerViewController: UIViewController, UIPageViewControllerDelegate {
         containerView.snp.makeConstraints { make in
             make.top.equalToSuperview().offset(100)
             make.bottom.equalToSuperview().inset(100)
-            make.leading.equalToSuperview().offset(24)
-            make.trailing.equalToSuperview().inset(24)
+            make.leading.equalToSuperview()
+            make.trailing.equalToSuperview()
             make.centerX.equalToSuperview()
             make.centerY.equalToSuperview()
             make.margins.equalTo(20)
